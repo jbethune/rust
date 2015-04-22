@@ -38,7 +38,7 @@ implemented. For this, we need something more dangerous.
 
 # `transmute`
 
-The `transmute` function is provided by a [compiler intrinsic][intrinsics], and
+The `transmute` function is provided by a [compiler intrinsic](intrinsics.html), and
 what it does is very simple, but very scary. It tells Rust to treat a value of
 one type as though it were another type. It does this regardless of the
 typechecking system, and just completely trusts you.
